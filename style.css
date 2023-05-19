@@ -1,0 +1,110 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 60%;
+}
+
+#logo-icon {
+    width: 3rem;
+    height: auto;
+    margin-right: 10px;
+}
+
+.navbar {
+    margin-top: 30px;
+}
+
+.navlinks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navlinks span:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.content {
+    margin-top: 40px;
+}
+
+.footer {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#footer-icons {
+    justify-content: center;
+    flex-grow: 1;
+}
+
+#footer-text {
+    text-align: left;
+}
+
+#footer-icons a {
+    color: inherit;
+    text-decoration: none;
+}
+
+span a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.col-area:first-of-type {
+    margin-top: 35px;
+}
+
+.col-area {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.project-card {
+    margin-bottom: 15px;
+}
+
+.logo-card {
+    flex: 0 0 calc(20% - 15px);
+    max-width: calc(20% - 15px);
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-img {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+}
+
+.project-card:nth-child(3) p:last-child {
+    margin-bottom: 0;
+}
+
+.logo-area {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.col-area .col-6.col-sm-4.col-md-3 {
+    text-align: left;
+}
+
+.partners-area {
+    margin-top: 30px;
+}
